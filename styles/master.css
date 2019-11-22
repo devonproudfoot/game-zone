@@ -1,0 +1,90 @@
+.tab {
+  display: block;
+  float: right;
+  font-size: 25px;
+  padding: 10px 10px 10px 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.tab:hover {
+  background-color: #19936B;
+}
+
+#main {
+  float: left;
+  font-size: 30px;
+  padding: 7.5px 5px 7.5px 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar {
+  min-height: 50px;
+  max-height: 100px;
+  background-color: #24d39a;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -30px;
+}
+
+.left {
+  height: 90%;
+}
+
+.right {
+  height: 90%;
+}
+
+.right h2 {
+  text-align: center;
+}
+
+.right p {
+  padding-left: 10%;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin: 10px 15px 10px 15px;
+  height: 30px;
+}
+
+.box-cover {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media only screen and (max-width: 950px) {
+  .hide {
+    display: none;
+  }
+}
+
+.comments-form {
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.comments-button {
+  float: right;
+  margin-top: 15px;
+}
