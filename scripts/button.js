@@ -1,6 +1,6 @@
 $('.comments-button').click(function( event ) {
   var $comment = $("#comment-text").val();
-  if $($comment) {
+  if ($comment) {
     alert(comment);
   }
 });
